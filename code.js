@@ -31,7 +31,6 @@ else {
         // Remove duplicates (in case multiple selected items have the same parent)
         const uniqueInstances = validParentInstances.filter((instance, index, self) => index === self.findIndex(i => i.id === instance.id));
         figma.currentPage.selection = uniqueInstances;
-        figma.viewport.scrollAndZoomIntoView(uniqueInstances);
         if (uniqueInstances.length === 1) {
             figma.notify(`Selected parent instance: ${uniqueInstances[0].name}`);
         }

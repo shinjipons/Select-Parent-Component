@@ -37,7 +37,6 @@ if (figma.currentPage.selection.length === 0) {
     );
 
     figma.currentPage.selection = uniqueInstances;
-    figma.viewport.scrollAndZoomIntoView(uniqueInstances);
 
     if (uniqueInstances.length === 1) {
       figma.notify(`Selected parent instance: ${uniqueInstances[0].name}`);
