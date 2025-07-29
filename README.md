@@ -1,3 +1,9 @@
+# Personal notes
+
+Each time I start Cursor, I need to press `Cmd + Shift + B` and select `tsc: watch - tsconfig.json` so that it watches for any saved changes in the files and pushes them to Figma.
+
+---
+
 Below are the steps to get your plugin running. You can also find instructions at:
 
   https://www.figma.com/plugin-docs/plugin-quickstart-guide/
